@@ -30,7 +30,7 @@ nav {
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    padding: 1.5rem 1rem 1rem 2.5rem;
+    padding: 1.5rem 1rem .5rem 2.5rem;
     list-style-position: initial;
     display: flex;
     z-index: 1;
@@ -69,26 +69,30 @@ nav a:hover {
 }
 
 main {
-    font-size: 140%;
-    background-color: rgb(182, 175, 175);
+    font-size: 130%;
+    background-color: rgb(236, 221, 221);
     color: black;
-    padding-bottom: 20vw;
-    padding-top: 20vw;
+    padding-bottom: 10vw;
+    padding-top: 5vw;
     padding-left: 2vw;
     padding-right: 2vw;
-    margin: 20px;
+    margin: 5%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     border-radius: 2rem;
+    text-align: justify;
 }
 
 .modal-btn {
+    font-size: 145%;
     background: #FF001B;
-    padding: 1em 2em;
+    display: flex;
+    margin: auto;
+    padding: 2em;
     color: #fff;
     padding: 0.75rem 2.5rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     cursor: pointer;
   }
   
@@ -106,10 +110,10 @@ main {
 
 .button {
     background: #FF001B;
-    padding: 1em 2em;
+    padding: 1em;
     color: #fff;
     padding: 0.75rem 2.5rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     cursor: pointer;
   }
   
@@ -117,6 +121,9 @@ main {
     background: #3876ac;
   }
 
+  .smFont {
+      font-size: 16px;
+  }
   
   .bground {
     display: none;
@@ -141,7 +148,7 @@ main {
   .modal-body {
     width: 99%;
     height: 99%;
-    padding: 10px 20px;
+    padding: 15px;
     background: #fff;
     margin: 15px auto;
   }
@@ -153,6 +160,7 @@ main {
     font-weight: normal;
 }
   input {
+    margin-bottom: 10px;
     padding: 8px;
     border: 1px solid gray;
 }
